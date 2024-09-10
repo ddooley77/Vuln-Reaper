@@ -25,32 +25,51 @@ Vuln-Reaper is a vulnerability prioritization tool that leverages AI to predict 
 * Impact: By enabling efficient vulnerability prioritization, Vuln-Reaper helps organizations reduce their attack surface and minimize the risk of exploitation.
 
 
+## 3. Data and AI Techniques
 
-## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
+* **Data Sources**: 
+    * Static code/binary analysis tools
+    * Composition analysis (software dependency scanning)
+    * Infrastructure analysis tools
+    * DAST (Dynamic Application Security Testing)
+    * Penetration testing reconnaissance
+    * Exploit databases
+    * Environmental information
+    * Company asset details
+* **AI Techniques**:
+    * **Semi-supervised Learning:** To leverage labeled exploitability data and vast amounts of unlabeled vulnerability data.
+    * **Natural Language Processing (NLP):** To process and understand vulnerability descriptions, exploit details, and environmental context.
+    * **Graph Neural Networks (GNNs):** To model the relationships between vulnerabilities, assets, and exploits within a network.
+    * **Ensemble Methods:** To combine predictions from different models and improve overall accuracy.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+## 4. How it is used
 
-## Challenges
+* **Context**: Vuln-Reaper is primarily used within the security operations center (SOC) and by development teams. It integrates with existing vulnerability management workflows and provides actionable intelligence to prioritize remediation efforts.
+* **Users**: 
+    * Security Analysts: To identify and investigate high-priority vulnerabilities.
+    * Developers: To understand the security implications of code changes and prioritize fixes.
+    * Security Managers: To gain visibility into the overall security posture and make informed risk management decisions.
+* **Impact**: By enabling efficient vulnerability prioritization, Vuln-Reaper helps organizations reduce their attack surface and minimize the risk of exploitation.
 
-Data Quality and Consistency: Handling inconsistencies and variations in vulnerability data from different tools and sources.
-False Positives and Negatives: Minimizing misclassifications of vulnerabilities as exploitable or non-exploitable.
-Evolving Threat Landscape: Adapting to new attack techniques and emerging vulnerabilities.
-Data Privacy and Security: Ensuring the confidentiality and integrity of sensitive vulnerability data.
+## 5. Challenges
 
-## What next?
+* **Data Quality and Consistency:** Handling inconsistencies and variations in vulnerability data from different tools and sources.
+* **False Positives and Negatives:** Minimizing misclassifications of vulnerabilities as exploitable or non-exploitable.
+* **Evolving Threat Landscape:** Adapting to new attack techniques and emerging vulnerabilities.
+* **Data Privacy and Security:** Ensuring the confidentiality and integrity of sensitive vulnerability data.
 
-Get Coding !
+## 6. What next
 
-## Acknowledgments
+Code !!  :-)
 
-* BERT (Bidirectional Encoder Representations from Transformers): A powerful language model for natural language processing tasks. Learn more: https://arxiv.org/abs/1810.04805
-* Semi-supervised Learning: A machine learning paradigm that leverages both labeled and unlabeled data. Explore further: https://en.wikipedia.org/wiki/Semi-supervised_learning
-* Graph Neural Networks (GNNs): A class of neural networks designed to operate on graph-structured data. Delve deeper: https://distill.pub/2021/gnn-intro/
-* Ensemble Methods: Techniques that combine multiple machine learning models to improve predictive performance. Learn more: https://en.wikipedia.org/wiki/Ensemble_learning
-* Node2Vec: An algorithm for learning continuous feature representations for nodes in networks. Explore further: https://snap.stanford.edu/node2vec/
+* **Enhanced Correlation**: Develop more sophisticated correlation algorithms to identify relationships between seemingly disparate vulnerabilities.
+* **Predictive Modeling**: Incorporate threat intelligence and attack patterns to predict future exploitation trends.
+* **Explainable AI**: Provide transparent explanations for vulnerability prioritization decisions, enhancing trust and understanding.
+
+## 7. Acknowledgments
+
+* **BERT (Bidirectional Encoder Representations from Transformers):** A powerful language model for natural language processing tasks. Learn more: [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805)
+* **Semi-supervised Learning:** A machine learning paradigm that leverages both labeled and unlabeled data. Explore further: [https://en.wikipedia.org/wiki/Semi-supervised_learning](https://en.wikipedia.org/wiki/Semi-supervised_learning)
+* **Graph Neural Networks (GNNs):** A class of neural networks designed to operate on graph-structured data. Delve deeper: [https://distill.pub/2021/gnn-intro/](https://distill.pub/2021/gnn-intro/)
+* **Ensemble Methods:** Techniques that combine multiple machine learning models to improve predictive performance. Learn more: [https://en.wikipedia.org/wiki/Ensemble_learning](https://en.wikipedia.org/wiki/Ensemble_learning)
+* **Node2Vec:** An algorithm for learning continuous feature representations for nodes in networks. Explore further: [https://snap.stanford.edu/node2vec/](https://snap.stanford.edu/node2vec/)
