@@ -14,8 +14,7 @@ Vuln-Reaper is a vulnerability prioritization tool that leverages AI to predict 
 * **Importance**: Effective vulnerability prioritization is crucial for reducing the attack surface and minimizing the potential impact of cyberattacks.
 
 
-
-## 33. Data and AI Techniques
+## 3. Data and AI Techniques
 
 * **Data Sources**: 
     * Static code/binary analysis tools
