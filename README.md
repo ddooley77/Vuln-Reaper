@@ -2,11 +2,11 @@
 
 Final project for the Building AI course
 
-## Summary
+## 1. Summary
 
 Vuln-Reaper is a vulnerability prioritization tool that leverages AI to predict the exploitability of vulnerabilities, aiding security and development teams in making informed decisions. It correlates vulnerability data from multiple sources, identifies high-priority threats, and provides actionable insights for efficient remediation.
 
-## Background
+## 2. Background
 
 * **Problem**: The sheer volume of vulnerabilities identified by various security tools can overwhelm security and development teams. Manual prioritization is time-consuming and prone to errors, leading to potential delays in addressing critical threats.
 * **Frequency**: This problem is widespread across organizations of all sizes, as the complexity of modern software and the evolving threat landscape contribute to an ever-increasing number of vulnerabilities.
@@ -15,17 +15,7 @@ Vuln-Reaper is a vulnerability prioritization tool that leverages AI to predict 
 
 
 
-## How is it used?
-
-* Context: Vuln-Reaper is primarily used within the security operations center (SOC) and by development teams. It integrates with existing vulnerability management workflows and provides actionable intelligence to prioritize remediation efforts.
-* Users:
-   * Security Analysts: To identify and investigate high-priority vulnerabilities.
-   * Developers: To understand the security implications of code changes and prioritize fixes.
-   * Security Leaders: To gain visibility into the overall security posture and make informed risk management decisions.
-* Impact: By enabling efficient vulnerability prioritization, Vuln-Reaper helps organizations reduce their attack surface and minimize the risk of exploitation.
-
-
-## 3. Data and AI Techniques
+## 33. Data and AI Techniques
 
 * **Data Sources**: 
     * Static code/binary analysis tools
