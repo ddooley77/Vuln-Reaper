@@ -3,7 +3,6 @@
 Final project for the Building AI course
 
 ## Summary
-
 Vuln-Reaper is a vulnerability prioritization tool that leverages AI to predict the exploitability of vulnerabilities, aiding security and development teams in making informed decisions. It correlates vulnerability data from multiple sources, identifies high-priority threats, and provides actionable insights for efficient remediation.
 
 ## Background
